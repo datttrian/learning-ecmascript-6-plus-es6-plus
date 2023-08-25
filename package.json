@@ -1,0 +1,17 @@
+{
+  "name": "learning-ecmascript-6-plus-es6-plus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/datttrian/learning-ecmascript-6-plus-es6-plus",
+  "author": "datttrian <datttrian@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2"
+  }
+}
