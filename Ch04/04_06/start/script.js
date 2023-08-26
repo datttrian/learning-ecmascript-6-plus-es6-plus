@@ -3,6 +3,7 @@ class Vehicle {
     this.description = description;
     this.wheels = wheels;
   }
+
   describeYourself() {
     console.log(
       `I am a ${this.description} 
@@ -11,7 +12,11 @@ class Vehicle {
   }
 }
 
-let coolSkiVan = new Vehicle("cool ski van", 4);
+class SemiTruck extends Vehicle {
+  constructor() {
+    super("semi truck", 18);
+  }
+}
 
-console.log(coolSkiVan);
-coolSkiVan.describeYourself();
+const groceryStoreSemi = new SemiTruck();
+groceryStoreSemi.describeYourself();
